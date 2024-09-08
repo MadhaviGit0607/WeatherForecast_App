@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import CitiesTable from './components/CitiesTable';
-import Weatherpage from './components/Weatherpage';
+import CitiesTable from './components/CitiesTable.js';
+import Weatherpage from './components/Weatherpage.js';
 
 const App = () => {
     return (
