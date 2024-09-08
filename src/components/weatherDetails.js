@@ -46,7 +46,7 @@ const WeatherDetails = ({ city }) => {
       weatherImage = rainyImg;
       break;
     default:
-      weatherImage = cloudyImg; // Fallback image
+      weatherImage = cloudyImg;
   }
 
   return (
