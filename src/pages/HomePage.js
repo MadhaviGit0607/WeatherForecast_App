@@ -5,8 +5,7 @@ import CitiesTable from '../components/CitiesTable';
 const HomePage = () => {
   const [selectedCity, setSelectedCity] = useState('');
   const navigate = useNavigate();
-
-  // Handler for city selection
+  
   const handleSelectCity = (city) => {
     setSelectedCity(city);
     navigate(`/weather/${encodeURIComponent(city)}`);
