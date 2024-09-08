@@ -2,9 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import WeatherPage from './pages/WeatherPage';
-
-
-import './App.css'; // Optional: For custom styling
+import './App.css';
 
 const App = () => {
   return (
