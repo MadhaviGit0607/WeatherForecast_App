@@ -1,11 +1,9 @@
-/* Basic Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body styling */
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -13,14 +11,14 @@ body {
   background-color: #f4f4f4;
 }
 
-/* Container for the whole app */
+
 .app-container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
 }
 
-/* Header styling */
+
 header {
   background-color: #333;
   color: #fff;
@@ -32,7 +30,7 @@ header h1 {
   margin: 0;
 }
 
-/* Table styling */
+
 .table-container {
   margin-top: 20px;
 }
@@ -57,7 +55,7 @@ tr:nth-child(even) {
   background-color: #f9f9f9;
 }
 
-/* Search input */
+
 .search-input {
   width: 100%;
   padding: 10px;
@@ -66,7 +64,7 @@ tr:nth-child(even) {
   border-radius: 4px;
 }
 
-/* Button styling */
+
 button {
   padding: 10px 15px;
   border: none;
@@ -80,7 +78,7 @@ button:hover {
   background-color: #0056b3;
 }
 
-/* Weather page styling */
+
 .weather-container {
   display: flex;
   flex-direction: column;
@@ -105,7 +103,7 @@ button:hover {
   margin: 5px 0;
 }
 
-/* Responsive design */
+
 @media (max-width: 768px) {
   .app-container {
     padding: 10px;

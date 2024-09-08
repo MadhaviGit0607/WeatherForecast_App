@@ -1,0 +1,22 @@
+.weather-details {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .weather-icon {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin: 5px 0;
+  }
+  

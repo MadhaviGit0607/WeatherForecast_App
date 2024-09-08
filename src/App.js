@@ -1,17 +1,24 @@
+// src/App.js
+
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import CitiesTable from './components/CitiesTable.js';
-import Weatherpage from './components/Weatherpage.js';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import WeatherPage from './pages/WeatherPage';
+
+
+import './App.css'; // Optional: For custom styling
 
 const App = () => {
-    return (
-        <Router>
-            <Routes>
-                <Route path="/" exact component={CitiesTable} />
-                <Route path="/weather/:cityId" component={Weatherpage} />
-            </Routes>
-        </Router>
-    );
+  return (
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/weather/:city" element={<WeatherPage />} />
+        </Routes>
+      </div>
+    </Router>
+  );
 };
 
 export default App;

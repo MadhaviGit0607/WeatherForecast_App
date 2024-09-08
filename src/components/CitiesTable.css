@@ -1,0 +1,19 @@
+.cities-table-container {
+    padding: 20px;
+  }
+  
+  .cities-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .cities-table th,
+  .cities-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .cities-table th {
+    background-color: #f4f4f4;
+  }
+  
